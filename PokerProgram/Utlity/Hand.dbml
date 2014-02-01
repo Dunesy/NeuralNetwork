@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Poker" Class="HandDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=SS_EQUALIZER\SENSOURCE2010;Initial Catalog=Poker;Integrated Security=True" SettingsObjectName="Utlity.Properties.Settings" SettingsPropertyName="PokerConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Hands" Member="Hands">
+    <Type Name="Hand">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="card1" Type="System.String" DbType="VarChar(2)" CanBeNull="true" />
+      <Column Name="card2" Type="System.String" DbType="VarChar(2)" CanBeNull="true" />
+      <Column Name="card3" Type="System.String" DbType="VarChar(2)" CanBeNull="true" />
+      <Column Name="card4" Type="System.String" DbType="VarChar(2)" CanBeNull="true" />
+      <Column Name="card5" Type="System.String" DbType="VarChar(2)" CanBeNull="true" />
+      <Column Name="score" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

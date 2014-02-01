@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Poker">
+  <DataContextMoniker Name="/PokerDataContext" />
+  <nestedChildShapes>
+    <classShape Id="f5c31aaf-a2c5-42ee-9505-93693353d9dc" absoluteBounds="1.25, 0.75, 2, 3.8862125651041666">
+      <DataClassMoniker Name="/PokerDataContext/Round" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f70165b3-930f-45e4-b575-c668c69d727a" absoluteBounds="1.2650000000000001, 1.21, 1.9700000000000002, 3.3262125651041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

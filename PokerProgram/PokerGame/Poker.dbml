@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Poker" Class="PokerDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=SS_EQUALIZER\SENSOURCE2010;Initial Catalog=Poker;Integrated Security=True" SettingsObjectName="PokerProgram.Properties.Settings" SettingsPropertyName="PokerConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Round" Member="Rounds">
+    <Type Name="Round">
+      <Column Name="TableId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Hand1" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Hand2" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Hand3" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Hand4" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Hand5" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Hand6" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Hand7" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Hand8" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Hand9" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="BigBlind" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="LittleBlind" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TurnOver" Type="System.String" DbType="NChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="Run" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="River" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="AdditionalInfo" Type="System.String" DbType="VarChar(400)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
